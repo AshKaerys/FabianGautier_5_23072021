@@ -9,5 +9,15 @@ fetch("http://localhost:3000/api/cameras")
 fetch("http://localhost:3000/api/furniture")
     .then((res) => console.log(res));
 
-const product = document.getElementsByClassName("product")
-    console.log(product);
+const product = document.getElementsByClassName("product");
+const navBar = document.querySelector("nav");
+
+window.addEventListener("scroll", (e) => {
+    console.log(e);
+    if (window.scrollY > 50){
+        navBar.style.top = "-115px";
+    }
+    else {
+        navBar.style.top = "0px";
+    }
+});

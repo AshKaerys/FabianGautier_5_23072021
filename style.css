@@ -29,7 +29,12 @@ nav{
 nav img{
     border-radius: 20px;
     width: 200px;
+    transition: 0.4s;
 }
+
+nav img:hover{
+    transform: scale(1.08);
+    opacity: 0.8;}
 
 .search input{
     border-radius: 20px;
@@ -50,6 +55,12 @@ nav img{
 
 .menu a{
     color: white;
+    transition: 0.4s;
+}
+
+.menu a:hover{
+    transform: scale(1.08);
+    opacity: 0.8;
 }
 
 /* section product */
@@ -79,6 +90,16 @@ section h1{
     margin: 20px 20px;
     padding: 10px;
     border-radius: 20px;
+    transition: 0.4s;
+}
+
+.product a{
+    color: black;
+}
+
+.product:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
 }
 
 .product img{

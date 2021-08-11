@@ -84,7 +84,7 @@ section h1{
 
 .product{
     width: 400px;
-    height: 500px;
+    height: 550px;
     border: 4px solid;
     border-image: linear-gradient(225deg, rgb(215,130,50), rgb(143,91,254)) 1; 
     margin: 20px 20px;

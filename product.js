@@ -22,7 +22,7 @@ window.addEventListener("scroll", () => {
 
 
 
-// chargement url by ID
+// récupération id par url
 
 let url = new URL(document.location).searchParams;
 let id = url.get('id');
@@ -42,6 +42,9 @@ fetch (`http://localhost:3000/api/teddies/${id}`)
         <p>${teddy.description}</p>
         <p>${teddy.price}€<p>
         `
+        let test = document.getElementById('select')
+        test.setAttribute('class', 'blue red')
         bear.appendChild(div)
-        
     })
+
+    console.log(select);
